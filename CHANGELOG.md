@@ -5,14 +5,14 @@ Every version below is available as a GitHub Release with its signed APK.
 
 | Version | Date | Release notes |
 |---|---|---|
-| **1.0.15** | 2026-10-29 | [v1.0.15](https://github.com/ClxybyCloner/clxy-updates/releases/tag/v1.0.15) |
-| 1.0.10 | 2026-10-29 | [v1.0.10](https://github.com/ClxybyCloner/clxy-updates/releases/tag/v1.0.10) |
-| 1.0.9 | 2026-10-27 | [v1.0.9](https://github.com/ClxybyCloner/clxy-updates/releases/tag/v1.0.9) |
-| 1.0.8 | 2026-10-27 | [v1.0.8](https://github.com/ClxybyCloner/clxy-updates/releases/tag/v1.0.8) |
-| 1.0.7 | 2026-10-27 | [v1.0.7](https://github.com/ClxybyCloner/clxy-updates/releases/tag/v1.0.7) |
-| 1.0.6 | 2026-10-27 | [v1.0.6](https://github.com/ClxybyCloner/clxy-updates/releases/tag/v1.0.6) |
-| 1.0.5 | 2026-10-27 | [v1.0.5](https://github.com/ClxybyCloner/clxy-updates/releases/tag/v1.0.5) |
-| 1.0.4 | 2026-10-26 | [v1.0.4](https://github.com/ClxybyCloner/clxy-updates/releases/tag/v1.0.4) |
+| **1.0.15** | 2026-10-29 | [v1.0.15](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.15) |
+| 1.0.10 | 2026-10-29 | [v1.0.10](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.10) |
+| 1.0.9 | 2026-10-27 | [v1.0.9](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.9) |
+| 1.0.8 | 2026-10-27 | [v1.0.8](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.8) |
+| 1.0.7 | 2026-10-27 | [v1.0.7](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.7) |
+| 1.0.6 | 2026-10-27 | [v1.0.6](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.6) |
+| 1.0.5 | 2026-10-27 | [v1.0.5](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.5) |
+| 1.0.4 | 2026-10-26 | [v1.0.4](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.4) |
 
 ---
 
@@ -36,7 +36,7 @@ Home-screen redesign, built around a new connection experience:
 ## 1.0.9 — 2026-10-27
 
 - Dark theme is now locked in — the app no longer follows the system light/dark mode; the old saved preference is cleared.
-- The in-app updater is connected to this repository (`ClxybyCloner/clxy-updates`).
+- The in-app updater is connected to the official Android release repository.
 - Version code `2127` → `2128`. Package and signing certificate unchanged.
 - All 145 Flutter tests, `flutter analyze`, and the full Go 1.27.2 test suite passed.
 

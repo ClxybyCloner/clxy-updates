@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ClxybyCloner/clxy-updates/releases/latest"><img src="https://img.shields.io/github/v/release/ClxybyCloner/clxy-updates?label=latest&color=7c5cff" alt="Latest release"></a>
-  <a href="https://github.com/ClxybyCloner/clxy-updates/releases"><img src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 7.0+"></a>
+  <a href="https://github.com/ClxybyCloner/CLXY-Android/releases/latest"><img src="https://img.shields.io/github/v/release/ClxybyCloner/CLXY-Android?label=latest&color=7c5cff" alt="Latest release"></a>
+  <a href="https://github.com/ClxybyCloner/CLXY-Android/releases"><img src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 7.0+"></a>
   <img src="https://img.shields.io/badge/arch-arm64--v8a-4f8cff" alt="arm64-v8a">
-  <a href="https://github.com/ClxybyCloner/clxy-updates/releases"><img src="https://img.shields.io/github/downloads/ClxybyCloner/clxy-updates/total?label=downloads" alt="Total downloads"></a>
+  <a href="https://github.com/ClxybyCloner/CLXY-Android/releases"><img src="https://img.shields.io/github/downloads/ClxybyCloner/CLXY-Android/total?label=downloads" alt="Total downloads"></a>
 </p>
 
 <h1 align="center">CLXY — Official Android Releases</h1>
@@ -23,8 +23,8 @@ newest build.
 
 **Latest: 1.0.15** — released October 29, 2026
 
-- 📦 [Download the APK (direct link)](https://github.com/ClxybyCloner/clxy-updates/releases/download/v1.0.15/CLXY-1.0.15-Android-arm64-v8a.apk)
-- 🗂️ [Browse all releases](https://github.com/ClxybyCloner/clxy-updates/releases)
+- 📦 [Download the APK (direct link)](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.15/CLXY-1.0.15-Android-arm64-v8a.apk)
+- 🗂️ [Browse all releases](https://github.com/ClxybyCloner/CLXY-Android/releases)
 
 > ⚠️ Only download CLXY from this repository. Links from anywhere else are not official.
 
@@ -95,7 +95,7 @@ confirm the install yourself. The app never installs anything behind your back.
 No. This is a *distribution* repository — signed builds and update metadata only. The source code is not published.
 
 **I need an older version.**
-Older builds stay available on the [Releases page](https://github.com/ClxybyCloner/clxy-updates/releases).
+Older builds stay available on the [Releases page](https://github.com/ClxybyCloner/CLXY-Android/releases).
 
 **The hotspot proxy asks for nothing — is that safe?**
 The hotspot HTTP/SOCKS5 proxies have no password by design, so **only turn them on on a hotspot you trust**, and switch them off when you're done. Anyone connected to your hotspot could use them.
