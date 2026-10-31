@@ -24,7 +24,7 @@ One-line hook — the single most exciting thing in this release.
 | APK | `CLXY-[VERSION]-Android-arm64-v8a.apk` |
 | SHA-256 | `[SHA]` |
 
-[📦 Download APK](https://github.com/ClxybyCloner/clxy-updates/releases/download/v[VERSION]/CLXY-[VERSION]-Android-arm64-v8a.apk)
+[📦 Download APK](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v[VERSION]/CLXY-[VERSION]-Android-arm64-v8a.apk)
 
 ---
 
