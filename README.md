@@ -47,8 +47,7 @@ newest build.
 2. **Open it** — Android will ask you to allow *"Install unknown apps"* for your browser. Allow it once.
 3. **Tap Install.** Done.
 
-> Coming from **1.0.4**? Install fresh — the package name changed to `com.clxy.android` in 1.0.5.
-> On **1.0.5 or newer**, new versions install right over the current app. No uninstall, no lost settings.
+A subscription is required to use CLXY.
 
 ---
 
@@ -95,12 +94,6 @@ confirm the install yourself. The app never installs anything behind your back.
 **Is the source code here?**
 No. This is a *distribution* repository — signed builds and update metadata only. The source code is not published.
 
-**Is CLXY free?**
-Yes — the app builds published here are free to download and use.
-
-**Do I lose my settings when I update?**
-No. Updates install over the current app (1.0.5+); your settings stay.
-
 **I need an older version.**
 Older builds stay available on the [Releases page](https://github.com/ClxybyCloner/clxy-updates/releases).
 
@@ -118,6 +111,5 @@ The hotspot HTTP/SOCKS5 proxies have no password by design, so **only turn them 
 
 ## 📜 Terms
 
-© CLXY. All rights reserved. The app builds published in this repository are
-free to download and use. Please don't re-upload them elsewhere — link people
-here instead, so everyone always gets the genuine, verified build.
+© CLXY. All rights reserved. Please don't re-upload the app builds elsewhere —
+link people here instead, so everyone always gets the genuine, verified build.
