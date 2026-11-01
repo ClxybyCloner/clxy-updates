@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="README_fa.md"><img src="https://img.shields.io/badge/🇮🇷_فارسی-7c5cff?style=for-the-badge" alt="نسخه فارسی"></a>
+  <a href="README_fa.md"><img src="assets/language-fa.svg" alt="نسخه فارسی" width="180"></a>
 </p>
 
 <p align="center">

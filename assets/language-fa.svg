@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" role="img" aria-labelledby="title">
+  <title id="title">نسخه فارسی</title>
+  <rect x="4" y="4" width="312" height="72" rx="10" fill="#7c5cff"/>
+  <text x="94" y="52" text-anchor="middle" font-family="system-ui, 'Segoe UI', Tahoma, sans-serif" font-size="30">🇮🇷</text>
+  <text x="210" y="52" text-anchor="middle" direction="rtl" unicode-bidi="plaintext" font-family="system-ui, 'Segoe UI', Tahoma, sans-serif" font-size="31" font-weight="600" fill="#ffffff">فارسی</text>
+</svg>
