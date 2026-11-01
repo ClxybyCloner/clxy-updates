@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" role="img" aria-label="animated wave divider">
+  <defs>
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.9">
+        <animate attributeName="stop-color" values="#7c5cff;#4f8cff;#7c5cff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#4f8cff" stop-opacity="0.55">
+        <animate attributeName="stop-color" values="#4f8cff;#9d6bff;#4f8cff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0.9">
+        <animate attributeName="stop-color" values="#7c5cff;#4f8cff;#7c5cff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <g opacity="0.45">
+    <path fill="url(#waveGrad)" d="M0,80 Q150,30 300,80 T600,80 T900,80 T1200,80 T1500,80 T1800,80 V140 H0 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g opacity="0.8">
+    <path fill="url(#waveGrad)" d="M0,95 Q150,55 300,95 T600,95 T900,95 T1200,95 T1500,95 T1800,95 V140 H0 Z">
+      <animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="13s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <circle cx="600" cy="70" r="5" fill="#7c5cff" opacity="0.9">
+    <animate attributeName="r" values="4;7;4" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.3;0.9" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="560" cy="70" r="3" fill="#4f8cff" opacity="0.7">
+    <animate attributeName="r" values="2;5;2" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="640" cy="70" r="3" fill="#4f8cff" opacity="0.7">
+    <animate attributeName="r" values="2;5;2" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

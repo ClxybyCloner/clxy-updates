@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/banner.png" alt="CLXY — Fast. Private. Yours." width="100%">
+  <a href="README_fa.md"><img src="https://img.shields.io/badge/🇮🇷_فارسی-7c5cff?style=for-the-badge" alt="نسخه فارسی"></a>
+</p>
+
+<p align="center">
+  <img src="assets/banner.png" alt="CLXY: Fast. Private. Yours." width="100%">
 </p>
 
 <p align="center">
@@ -9,15 +13,19 @@
   <a href="https://github.com/ClxybyCloner/CLXY-Android/releases"><img src="https://img.shields.io/github/downloads/ClxybyCloner/CLXY-Android/total?label=downloads" alt="Total downloads"></a>
 </p>
 
-<h1 align="center">CLXY — Official Android Releases</h1>
-<p align="center"><b>Fast. Private. Yours.</b></p>
+<h1 align="center">CLXY: Official Android Releases</h1>
 
-This is the **official download & update channel** for the CLXY Android app.
-Every release is published here — and the in-app updater checks this exact
-repository, so if you're running CLXY, you're always one tap away from the
-newest build.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1200&color=7C5CFF&center=true&vCenter=true&width=700&lines=Fast.+Private.+Yours.;Official+CLXY+Android+releases;One+tap+away+from+the+newest+build" alt="Fast. Private. Yours.">
+</p>
 
----
+This repository is the **official download and update channel** for the CLXY
+Android app. Every release is published here. The in-app updater checks this
+repository for new builds.
+
+<p align="center">
+  <img src="assets/wave.svg" alt="" width="100%">
+</p>
 
 ## ⬇️ Download
 
@@ -32,12 +40,12 @@ newest build.
 
 ## Why CLXY
 
-- 🌐 **Connection globe** — a live globe on the home screen showing your home country and your server country, linked by a glowing arc (based on IP info, not packet tracing).
-- 📡 **Hotspot sharing** — share your connection with nearby devices over HTTP (`11811`) and SOCKS5 (`11812`) proxies, bound to your selected hotspot IP only.
-- ⚡ **Live speeds** — real-time upload/download rates right in the Android notification.
-- 📊 **Traffic & stats** — redesigned traffic cards, server picker, and account data usage with a one-tap jump to the stats page.
-- 🌙 **Dark by design** — a locked-in dark theme across the whole app.
-- 🔄 **In-app updater** — CLXY notifies you when a new build lands here. Downloading and installing always needs *your* confirmation — never silent.
+- 🌐 The home screen shows a live globe with your home and server countries linked by a glowing arc. It uses IP information, not packet tracing.
+- 📡 Share your connection with nearby devices over HTTP (`11811`) and SOCKS5 (`11812`). Both proxies bind only to the hotspot IP you selected.
+- ⚡ Android notifications show live upload and download rates.
+- 📊 Redesigned traffic cards, the server picker, and account data usage make it easy to check your stats. Tap a traffic card to open the stats page.
+- 🌙 The app uses a dark theme throughout.
+- 🔄 CLXY notifies you when a new build is available here. Downloading and installing require your confirmation.
 
 ---
 
@@ -54,8 +62,8 @@ The core supports HTTP/2 CONNECT over TLS and HTTP/3 CONNECT over QUIC for conne
 ## Install in 60 seconds
 
 1. **Download** the APK from the link above.
-2. **Open it** — Android will ask you to allow *"Install unknown apps"* for your browser. Allow it once.
-3. **Tap Install.** Done.
+2. **Open the APK.** Android will ask you to allow your browser to *"Install unknown apps"*. Allow it once.
+3. **Tap Install** to finish.
 
 A subscription is required to use CLXY.
 
@@ -81,9 +89,10 @@ If they match, the file is exactly what we published.
 
 ## 🔄 How updates work
 
-CLXY periodically checks this repo's **Releases** for a newer version. When one
-is found, you get a notification inside the app — tap it to download, then
-confirm the install yourself. The app never installs anything behind your back.
+CLXY periodically checks this repository's **Releases** for a newer version.
+When one is available, the app notifies you. Tap the notification to download
+the update, then confirm the installation. CLXY does not install updates
+automatically.
 
 ---
 
@@ -102,24 +111,29 @@ confirm the install yourself. The app never installs anything behind your back.
 ## ❓ FAQ
 
 **Is the source code here?**
-No. This is a *distribution* repository — signed builds and update metadata only. The source code is not published.
+No. This repository is for distribution only. It contains signed builds and
+update metadata, not source code.
 
 **I need an older version.**
 Older builds stay available on the [Releases page](https://github.com/ClxybyCloner/CLXY-Android/releases).
 
-**The hotspot proxy asks for nothing — is that safe?**
-The hotspot HTTP/SOCKS5 proxies have no password by design, so **only turn them on on a hotspot you trust**, and switch them off when you're done. Anyone connected to your hotspot could use them.
+**The hotspot proxy asks for nothing. Is that safe?**
+The hotspot HTTP/SOCKS5 proxies have no password by design. **Turn them on only
+when you trust the hotspot**, and switch them off when you're done. Anyone
+connected to the hotspot can use them.
 
 ---
 
 ## 💬 Support
 
-- 🌐 [clonerr.ir](https://clonerr.ir)
+- 🌐 [clonerr.ir](https://www.clonerr.ir)
 - ✈️ Telegram: [@cloner42](https://t.me/cloner42)
 
----
+<p align="center">
+  <img src="assets/wave.svg" alt="" width="100%">
+</p>
 
 ## 📜 Terms
 
-© CLXY. All rights reserved. Please don't re-upload the app builds elsewhere —
-link people here instead, so everyone always gets the genuine, verified build.
+© CLXY. All rights reserved. Please don't re-upload the app builds. Share this
+repository's link so people can download the genuine, verified build.
