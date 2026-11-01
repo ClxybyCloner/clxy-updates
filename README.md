@@ -41,13 +41,13 @@ newest build.
 
 ---
 
-## معماری هستهٔ CLXY
+## CLXY core architecture
 
-CLXY یک رابط Flutter و هستهٔ شبکهٔ Go دارد. هسته به‌صورت کتابخانه داخل خود برنامه اجرا می‌شود و رابط، وضعیت اتصال و تنظیمات را از API محلی روی loopback می‌خواند؛ پردازش ترافیک بر عهدهٔ هسته است.
+CLXY pairs a Flutter interface with an embedded Go networking core. The core runs as a library inside the app. The UI uses a local bridge and loopback API to manage settings and read connection status, while the core handles network traffic.
 
-در حالت VPN، سرویس `VpnService` اندروید یک رابط مجازی TUN می‌سازد. پشتهٔ TCP/IP در فضای کاربر بسته‌ها را پردازش می‌کند و اتصال‌های TCP را به پراکسی SOCKS5 هسته می‌فرستد. DNS داخلی با آدرس‌های موقت، نام دامنه را برای قواعد مسیریابی نگه می‌دارد. این قواعد، مسیر پراکسی، اتصال مستقیم یا مسدودسازی را انتخاب می‌کنند و انتخاب برنامه‌ها مشخص می‌کند کدام اپ‌ها وارد VPN شوند.
+In VPN mode, Android's `VpnService` creates a virtual TUN interface. A user-space TCP/IP stack processes packets and forwards TCP connections to the core's SOCKS5 proxy. The built-in DNS resolver maps domain names to temporary IP addresses so routing rules can still match domains. These rules choose whether to use the proxy, connect directly, or block a connection. App selection controls which apps use the VPN.
 
-ارتباط هسته با درگاه از HTTP/2 CONNECT روی TLS و HTTP/3 CONNECT روی QUIC پشتیبانی می‌کند. حالت proxy-only هم از همان هسته، بدون ساخت VPN سراسری استفاده می‌کند. مسیر VPN اندروید، TCP و DNS را پوشش می‌دهد؛ سایر ترافیک UDP منتقل نمی‌شود.
+The core supports HTTP/2 CONNECT over TLS and HTTP/3 CONNECT over QUIC for connections to the gateway. Proxy-only mode uses the same core without creating a device-wide VPN. The Android VPN path handles TCP and DNS; other UDP traffic is not tunneled.
 
 ---
 
@@ -123,3 +123,4 @@ The hotspot HTTP/SOCKS5 proxies have no password by design, so **only turn them 
 
 © CLXY. All rights reserved. Please don't re-upload the app builds elsewhere —
 link people here instead, so everyone always gets the genuine, verified build.
+
