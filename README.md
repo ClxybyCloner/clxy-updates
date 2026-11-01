@@ -21,9 +21,9 @@ newest build.
 
 ## ⬇️ Download
 
-**Latest: 1.0.15** — released October 29, 2026
+**Latest: 1.0.16**, released November 1, 2026
 
-- 📦 [Download the APK (direct link)](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.15/CLXY-1.0.15-Android-arm64-v8a.apk)
+- 📦 [Download the APK (direct link)](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.16/CLXY-1.0.16-Android-arm64-v8a.apk)
 - 🗂️ [Browse all releases](https://github.com/ClxybyCloner/CLXY-Android/releases)
 
 > ⚠️ Only download CLXY from this repository. Links from anywhere else are not official.
@@ -41,6 +41,16 @@ newest build.
 
 ---
 
+## معماری هستهٔ CLXY
+
+CLXY یک رابط Flutter و هستهٔ شبکهٔ Go دارد. هسته به‌صورت کتابخانه داخل خود برنامه اجرا می‌شود و رابط، وضعیت اتصال و تنظیمات را از API محلی روی loopback می‌خواند؛ پردازش ترافیک بر عهدهٔ هسته است.
+
+در حالت VPN، سرویس `VpnService` اندروید یک رابط مجازی TUN می‌سازد. پشتهٔ TCP/IP در فضای کاربر بسته‌ها را پردازش می‌کند و اتصال‌های TCP را به پراکسی SOCKS5 هسته می‌فرستد. DNS داخلی با آدرس‌های موقت، نام دامنه را برای قواعد مسیریابی نگه می‌دارد. این قواعد، مسیر پراکسی، اتصال مستقیم یا مسدودسازی را انتخاب می‌کنند و انتخاب برنامه‌ها مشخص می‌کند کدام اپ‌ها وارد VPN شوند.
+
+ارتباط هسته با درگاه از HTTP/2 CONNECT روی TLS و HTTP/3 CONNECT روی QUIC پشتیبانی می‌کند. حالت proxy-only هم از همان هسته، بدون ساخت VPN سراسری استفاده می‌کند. مسیر VPN اندروید، TCP و DNS را پوشش می‌دهد؛ سایر ترافیک UDP منتقل نمی‌شود.
+
+---
+
 ## Install in 60 seconds
 
 1. **Download** the APK from the link above.
@@ -53,16 +63,16 @@ A subscription is required to use CLXY.
 
 ## ✅ Verify your download
 
-The latest release includes `SHA256SUMS.txt` next to the APK. On a computer:
+On a computer, calculate the APK's SHA-256:
 
 ```bash
-sha256sum CLXY-1.0.15-Android-arm64-v8a.apk
+sha256sum CLXY-1.0.16-Android-arm64-v8a.apk
 ```
 
-Compare the output with the full hash in the release asset `SHA256SUMS.txt`:
+Compare the output with this expected hash:
 
 ```text
-5bb7dc82764034967430319750236329acbb491c555b86aeaed3ef978833b214  CLXY-1.0.15-Android-arm64-v8a.apk
+bf1d45ae48a4eb9ae6d37778d528941d65fa0472d3a421afdf9a108b0b1fe559  CLXY-1.0.16-Android-arm64-v8a.apk
 ```
 
 If they match, the file is exactly what we published.
@@ -82,10 +92,10 @@ confirm the install yourself. The app never installs anything behind your back.
 | | |
 |---|---|
 | Package | `com.clxy.android` |
-| Version / version code | `1.0.15` / `8137` |
+| Version / version code | `1.0.16` / `8138` |
 | Architecture | `arm64-v8a` |
 | Minimum Android | 7.0 (API 24) |
-| Size | ~19.3 MB |
+| Size | ~20.3 MB |
 
 ---
 
